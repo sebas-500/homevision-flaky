@@ -47,19 +47,21 @@ git clone git@github.com:sebas-500/homevision-flaky.git
 Build the application
 
 ```java
-./gradle build
+./gradlew build
 ```
 
 Unzip and run the app
 
 ```bash
-tar -xf ./build/distributions/homevision-flaky-1.0-SNAPSHOT.tar
+tar -xf ./build/distributions/homevision-flaky-1.0-SNAPSHOT.tar && \
 ./homevision-flaky-1.0-SNAPSHOT/bin/homevision-flaky
 ```
 
+**_note: Photos will be stored in <cloned_path>/homevision-flaky/photos_**
+
 If instead you want to run the test suite
 ```java
-./gradle clean test
+./gradlew clean test
 ```
 
 To review test report use the following command
