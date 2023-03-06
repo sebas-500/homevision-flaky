@@ -9,7 +9,7 @@ The installation instructions support mac os.
 
 ## Installation
 
-If you don't have java installed follow the commands listed on [sdkman install](https://sdkman.io/install) to install sdkman first.
+If you don't have java 19 installed follow the commands listed on [sdkman install](https://sdkman.io/install) to install sdkman first.
 
 After you succesfuly installed sdkman, install open jdk with the following command
 
